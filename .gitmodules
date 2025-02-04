@@ -22,3 +22,6 @@
 [submodule "src/reconstruct/easondrone_mapping"]
 	path = src/reconstruct/easondrone_mapping
 	url = https://github.com/HuaYuXiao/easondrone_mapping.git
+[submodule "3rdparty/ceres-solver"]
+	path = 3rdparty/ceres-solver
+	url = https://ceres-solver.googlesource.com/ceres-solver.git
