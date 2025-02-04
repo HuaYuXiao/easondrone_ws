@@ -44,3 +44,21 @@
 [submodule "src/slam/global_fusion"]
 	path = src/slam/global_fusion
 	url = https://gitee.com/hyx020222/global_fusion.git
+[submodule "src/reconstruct/plan_env"]
+	path = src/reconstruct/plan_env
+	url = https://gitee.com/hyx020222/plan_env.git
+[submodule "src/plan/waypoint_generator"]
+	path = src/plan/waypoint_generator
+	url = https://gitee.com/hyx020222/waypoint_generator.git
+[submodule "src/plan/path_searching"]
+	path = src/plan/path_searching
+	url = https://gitee.com/hyx020222/path_searching.git
+[submodule "src/plan/bspline_opt"]
+	path = src/plan/bspline_opt
+	url = https://gitee.com/hyx020222/bspline_opt.git
+[submodule "src/plan/traj_utils"]
+	path = src/plan/traj_utils
+	url = https://gitee.com/hyx020222/traj_utils.git
+[submodule "src/plan/ego-planner"]
+	path = src/plan/ego-planner
+	url = https://github.com/HuaYuXiao/ego-planner.git
