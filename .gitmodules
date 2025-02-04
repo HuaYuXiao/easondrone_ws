@@ -1,0 +1,3 @@
+[submodule "src/module/quadrotor_msgs"]
+	path = src/module/quadrotor_msgs
+	url = https://github.com/HuaYuXiao/quadrotor_msgs.git
