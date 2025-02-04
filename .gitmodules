@@ -68,3 +68,6 @@
 [submodule "src/slam/VINS-Fusion"]
 	path = src/slam/VINS-Fusion
 	url = https://github.com/HuaYuXiao/VINS-Fusion.git
+[submodule "src/lidar/livox_ros_driver2"]
+	path = src/lidar/livox_ros_driver2
+	url = https://github.com/HuaYuXiao/livox_ros_driver2.git
