@@ -10,3 +10,6 @@
 [submodule "src/module/odom_visualization"]
 	path = src/module/odom_visualization
 	url = https://gitee.com/hyx020222/odom_visualization.git
+[submodule "src/simulate/easondrone_gazebo"]
+	path = src/simulate/easondrone_gazebo
+	url = https://github.com/HuaYuXiao/easondrone_gazebo.git
