@@ -19,3 +19,6 @@
 [submodule "src/module/px4ctrl"]
 	path = src/module/px4ctrl
 	url = https://github.com/HuaYuXiao/px4ctrl.git
+[submodule "src/reconstruct/easondrone_mapping"]
+	path = src/reconstruct/easondrone_mapping
+	url = https://github.com/HuaYuXiao/easondrone_mapping.git
