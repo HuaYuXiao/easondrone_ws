@@ -4,3 +4,6 @@
 [submodule "src/module/easondrone_msgs"]
 	path = src/module/easondrone_msgs
 	url = https://github.com/HuaYuXiao/easondrone_msgs.git
+[submodule "src/module/pose_utils"]
+	path = src/module/pose_utils
+	url = https://gitee.com/hyx020222/pose_utils.git
