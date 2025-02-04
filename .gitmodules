@@ -65,3 +65,6 @@
 [submodule "src/plan/apf_local_planner"]
 	path = src/plan/apf_local_planner
 	url = https://github.com/HuaYuXiao/apf_local_planner.git
+[submodule "src/slam/VINS-Fusion"]
+	path = src/slam/VINS-Fusion
+	url = https://github.com/HuaYuXiao/VINS-Fusion.git
