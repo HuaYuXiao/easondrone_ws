@@ -16,3 +16,6 @@
 [submodule "src/lidar/livox_laser_simulation"]
 	path = src/lidar/livox_laser_simulation
 	url = https://github.com/HuaYuXiao/livox_laser_simulation.git
+[submodule "src/module/px4ctrl"]
+	path = src/module/px4ctrl
+	url = https://github.com/HuaYuXiao/px4ctrl.git
