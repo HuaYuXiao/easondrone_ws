@@ -13,3 +13,6 @@
 [submodule "src/simulate/easondrone_gazebo"]
 	path = src/simulate/easondrone_gazebo
 	url = https://github.com/HuaYuXiao/easondrone_gazebo.git
+[submodule "src/lidar/livox_laser_simulation"]
+	path = src/lidar/livox_laser_simulation
+	url = https://github.com/HuaYuXiao/livox_laser_simulation.git
