@@ -62,3 +62,6 @@
 [submodule "src/plan/ego-planner"]
 	path = src/plan/ego-planner
 	url = https://github.com/HuaYuXiao/ego-planner.git
+[submodule "src/plan/apf_local_planner"]
+	path = src/plan/apf_local_planner
+	url = https://github.com/HuaYuXiao/apf_local_planner.git
