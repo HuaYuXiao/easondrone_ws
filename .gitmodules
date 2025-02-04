@@ -38,3 +38,9 @@
 [submodule "src/vision/camera_models"]
 	path = src/vision/camera_models
 	url = https://github.com/HuaYuXiao/camera_models.git
+[submodule "src/slam/loop_fusion"]
+	path = src/slam/loop_fusion
+	url = https://gitee.com/hyx020222/loop_fusion.git
+[submodule "src/slam/global_fusion"]
+	path = src/slam/global_fusion
+	url = https://gitee.com/hyx020222/global_fusion.git
