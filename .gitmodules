@@ -32,3 +32,6 @@
 [submodule "src/lidar/livox_ros_driver"]
 	path = src/lidar/livox_ros_driver
 	url = https://github.com/Livox-SDK/livox_ros_driver.git
+[submodule "src/slam/FAST_LIO"]
+	path = src/slam/FAST_LIO
+	url = https://github.com/HuaYuXiao/FAST_LIO.git
