@@ -29,3 +29,6 @@
 [submodule "src/slam/slambook2"]
 	path = src/slam/slambook2
 	url = https://github.com/gaoxiang12/slambook2.git
+[submodule "src/lidar/livox_ros_driver"]
+	path = src/lidar/livox_ros_driver
+	url = https://github.com/Livox-SDK/livox_ros_driver.git
