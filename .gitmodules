@@ -25,3 +25,4 @@
 [submodule "3rdparty/ceres-solver"]
 	path = 3rdparty/ceres-solver
 	url = https://ceres-solver.googlesource.com/ceres-solver.git
+	branch = 2.1.0
