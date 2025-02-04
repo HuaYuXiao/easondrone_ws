@@ -7,3 +7,6 @@
 [submodule "src/module/pose_utils"]
 	path = src/module/pose_utils
 	url = https://gitee.com/hyx020222/pose_utils.git
+[submodule "src/module/odom_visualization"]
+	path = src/module/odom_visualization
+	url = https://gitee.com/hyx020222/odom_visualization.git
