@@ -71,3 +71,9 @@
 [submodule "src/lidar/livox_ros_driver2"]
 	path = src/lidar/livox_ros_driver2
 	url = https://github.com/HuaYuXiao/livox_ros_driver2.git
+[submodule "src/lidar/Livox-SDK"]
+	path = src/lidar/Livox-SDK
+	url = https://github.com/Livox-SDK/Livox-SDK.git
+[submodule "src/lidar/Livox-SDK2"]
+	path = src/lidar/Livox-SDK2
+	url = https://github.com/Livox-SDK/Livox-SDK2.git
