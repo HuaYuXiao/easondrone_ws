@@ -34,13 +34,17 @@ cmake ..
 make
 sudo make install
 
+sudo apt install ros-noetic-usb-cam
 sudo apt install ros-noetic-vision-msgs
-
-sudo apt install ros-noetic-*octomap*
-sudo apt install octovis
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip install numpy==1.21
+pip install tqdm seaborn
 
 sudo apt install ros-noetic-moveit*
 sudo apt install libarmadillo-dev
+
+sudo apt install ros-noetic-*octomap*
+sudo apt install octovis
 
 cd ~/easondrone_ws
 catkin_make_isolated --ignore-pkg ceres-solver pangolin
