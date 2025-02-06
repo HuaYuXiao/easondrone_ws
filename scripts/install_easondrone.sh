@@ -34,6 +34,8 @@ cmake ..
 make
 sudo make install
 
+sudo apt install ros-noetic-vision-msgs
+
 sudo apt install ros-noetic-*octomap*
 sudo apt install octovis
 
