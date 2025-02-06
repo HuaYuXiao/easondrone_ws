@@ -77,3 +77,6 @@
 [submodule "src/lidar/Livox-SDK2"]
 	path = src/lidar/Livox-SDK2
 	url = https://github.com/Livox-SDK/Livox-SDK2.git
+[submodule "src/vision/yolov7_ros"]
+	path = src/vision/yolov7_ros
+	url = https://github.com/mit-acl/yolov7_ros.git
