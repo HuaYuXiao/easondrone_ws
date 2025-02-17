@@ -1,12 +1,8 @@
-# CMake
+#!/bin/bash
 sudo apt install cmake
-# google-glog + gflags
 sudo apt install libgoogle-glog-dev libgflags-dev
-# Use ATLAS for BLAS & LAPACK
 sudo apt install libatlas-base-dev
-# Eigen3
 sudo apt install libeigen3-dev
-# SuiteSparse (optional)
 sudo apt install libsuitesparse-dev
 
 cd ./3rdparty
@@ -40,10 +36,11 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 pip install numpy==1.21
 pip install tqdm seaborn
 
-sudo apt install ros-noetic-moveit*
+sudo apt install ros-noetic-move-base
+sudo apt install ros-noetic-moveit
 sudo apt install libarmadillo-dev
 
-sudo apt install ros-noetic-*octomap*
+sudo apt install ros-noetic-octomap
 sudo apt install octovis
 
 cd ~/easondrone_ws
