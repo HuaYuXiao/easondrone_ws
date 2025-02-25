@@ -1,4 +1,8 @@
 #!/bin/bash
+# Exit Anaconda environment
+conda deactivate
+conda deactivate
+
 sudo apt install cmake
 sudo apt install libgoogle-glog-dev libgflags-dev
 sudo apt install libatlas-base-dev
