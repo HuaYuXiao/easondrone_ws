@@ -44,8 +44,8 @@ sudo apt install ros-noetic-move-base
 sudo apt install ros-noetic-moveit
 sudo apt install libarmadillo-dev
 
-sudo apt install ros-noetic-octomap
-sudo apt install octovis
+sudo apt install ros-noetic-tf2-sensor-msgs
+sudo apt install ros-noetic-octomap octovis
 
 cd ~/easondrone_ws
 catkin_make_isolated --ignore-pkg ceres-solver pangolin
