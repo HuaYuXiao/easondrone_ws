@@ -83,3 +83,6 @@
 [submodule "src/simulate/robocon25_sim"]
 	path = src/simulate/robocon25_sim
 	url = https://gitee.com/hyx020222/robocon25_sim.git
+[submodule "src/simulate/rotors_simulator"]
+	path = src/simulate/rotors_simulator
+	url = https://github.com/HuaYuXiao/rotors_simulator.git
