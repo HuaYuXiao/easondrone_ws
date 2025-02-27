@@ -1,9 +1,12 @@
 [submodule "src/module/quadrotor_msgs"]
-	path = src/module/quadrotor_msgs
+	path = src/msg/quadrotor_msgs
 	url = https://github.com/HuaYuXiao/quadrotor_msgs.git
 [submodule "src/module/easondrone_msgs"]
-	path = src/module/easondrone_msgs
+	path = src/msg/easondrone_msgs
 	url = https://github.com/HuaYuXiao/easondrone_msgs.git
+[submodule "src/module/mav_comm"]
+	path = src/msg/mav_comm
+	url = https://github.com/ethz-asl/mav_comm.git
 [submodule "src/module/pose_utils"]
 	path = src/module/pose_utils
 	url = https://gitee.com/hyx020222/pose_utils.git
@@ -13,9 +16,12 @@
 [submodule "src/simulate/easondrone_gazebo"]
 	path = src/simulate/easondrone_gazebo
 	url = https://github.com/HuaYuXiao/easondrone_gazebo.git
-[submodule "src/lidar/livox_laser_simulation"]
-	path = src/lidar/livox_laser_simulation
-	url = https://github.com/HuaYuXiao/livox_laser_simulation.git
+[submodule "src/simulate/robocon25_sim"]
+	path = src/simulate/robocon25_sim
+	url = https://gitee.com/hyx020222/robocon25_sim.git
+[submodule "src/simulate/rotors_simulator"]
+	path = src/simulate/rotors_simulator
+	url = https://github.com/HuaYuXiao/rotors_simulator.git
 [submodule "src/module/px4ctrl"]
 	path = src/module/px4ctrl
 	url = https://github.com/HuaYuXiao/px4ctrl.git
@@ -29,6 +35,9 @@
 [submodule "src/slam/slambook2"]
 	path = src/slam/slambook2
 	url = https://github.com/gaoxiang12/slambook2.git
+[submodule "src/lidar/livox_laser_simulation"]
+	path = src/lidar/livox_laser_simulation
+	url = https://github.com/HuaYuXiao/livox_laser_simulation.git
 [submodule "src/lidar/livox_ros_driver"]
 	path = src/lidar/livox_ros_driver
 	url = https://github.com/Livox-SDK/livox_ros_driver.git
@@ -80,12 +89,3 @@
 [submodule "src/vision/yolov7_ros"]
 	path = src/vision/yolov7_ros
 	url = https://github.com/mit-acl/yolov7_ros.git
-[submodule "src/simulate/robocon25_sim"]
-	path = src/simulate/robocon25_sim
-	url = https://gitee.com/hyx020222/robocon25_sim.git
-[submodule "src/simulate/rotors_simulator"]
-	path = src/simulate/rotors_simulator
-	url = https://github.com/HuaYuXiao/rotors_simulator.git
-[submodule "src/module/mav_comm"]
-	path = src/module/mav_comm
-	url = https://github.com/ethz-asl/mav_comm.git
