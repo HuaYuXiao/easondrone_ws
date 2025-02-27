@@ -86,3 +86,6 @@
 [submodule "src/simulate/rotors_simulator"]
 	path = src/simulate/rotors_simulator
 	url = https://github.com/HuaYuXiao/rotors_simulator.git
+[submodule "src/module/mav_comm"]
+	path = src/module/mav_comm
+	url = https://github.com/ethz-asl/mav_comm.git
