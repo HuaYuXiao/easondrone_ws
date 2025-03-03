@@ -1,10 +1,10 @@
-[submodule "src/module/quadrotor_msgs"]
+[submodule "src/msg/quadrotor_msgs"]
 	path = src/msg/quadrotor_msgs
 	url = https://github.com/HuaYuXiao/quadrotor_msgs.git
-[submodule "src/module/easondrone_msgs"]
+[submodule "src/msg/easondrone_msgs"]
 	path = src/msg/easondrone_msgs
 	url = https://github.com/HuaYuXiao/easondrone_msgs.git
-[submodule "src/module/mav_comm"]
+[submodule "src/msg/mav_comm"]
 	path = src/msg/mav_comm
 	url = https://github.com/ethz-asl/mav_comm.git
 [submodule "src/module/pose_utils"]
