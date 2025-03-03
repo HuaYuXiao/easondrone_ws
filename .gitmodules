@@ -7,6 +7,10 @@
 [submodule "src/msg/mav_comm"]
 	path = src/msg/mav_comm
 	url = https://github.com/ethz-asl/mav_comm.git
+[submodule "src/msg/px4_msgs"]
+	path = src/msg/px4_msgs
+	url = https://github.com/PX4/px4_msgs.git
+	branch = ros1
 [submodule "src/module/pose_utils"]
 	path = src/module/pose_utils
 	url = https://gitee.com/hyx020222/pose_utils.git
