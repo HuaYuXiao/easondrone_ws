@@ -55,6 +55,7 @@ make
 sudo make install
 
 echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:~/easondrone_ws/3rdparty/acados/lib" >> ~/.bashrc
+echo "export ACADOS_SOURCE_DIR=~/easondrone_ws/3rdparty/acados" >> ~/.bashrc
 
 cd ~/easondrone_ws
 catkin_make_isolated --ignore-pkg ceres-solver pangolin
