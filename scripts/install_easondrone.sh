@@ -61,8 +61,3 @@ cd ~/easondrone_ws
 catkin_make_isolated --ignore-pkg ceres-solver pangolin
 
 echo "source ~/easondrone_ws/devel_isolated/setup.bash" >> ~/.bashrc
-echo "export GAZEBO_MODEL_PATH=\$GAZEBO_MODEL_PATH:~/easondrone_ws/src/simulate/easondrone_gazebo/models/drone" >> ~/.bashrc
-echo "export GAZEBO_MODEL_PATH=\$GAZEBO_MODEL_PATH:~/easondrone_ws/src/simulate/easondrone_gazebo/models/sensor" >> ~/.bashrc
-echo "export GAZEBO_MODEL_PATH=\$GAZEBO_MODEL_PATH:~/easondrone_ws/src/simulate/easondrone_gazebo/models/scene" >> ~/.bashrc
-echo "export GAZEBO_MODEL_PATH=\$GAZEBO_MODEL_PATH:~/easondrone_ws/src/simulate/easondrone_gazebo/models/texture" >> ~/.bashrc
-echo "export GAZEBO_MODEL_PATH=\$GAZEBO_MODEL_PATH:~/easondrone_ws/src/simulate/robocon25_sim/models" >> ~/.bashrc
