@@ -103,3 +103,6 @@
 [submodule "src/mission/uav_landing"]
 	path = src/mission/uav_landing
 	url = https://github.com/HuaYuXiao/uav_landing.git
+[submodule "3rdparty/ArUco"]
+	path = 3rdparty/ArUco
+	url = https://github.com/HuaYuXiao/ArUco.git
