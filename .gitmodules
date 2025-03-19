@@ -26,6 +26,10 @@
 [submodule "src/simulate/rotors_simulator"]
 	path = src/simulate/rotors_simulator
 	url = https://github.com/HuaYuXiao/rotors_simulator.git
+[submodule "src/simulate/husky"]
+	path = src/simulate/husky
+	url = https://github.com/husky/husky.git
+	branch = noetic-devel
 [submodule "src/module/px4ctrl"]
 	path = src/module/px4ctrl
 	url = https://github.com/HuaYuXiao/px4ctrl.git
@@ -45,18 +49,27 @@
 [submodule "src/lidar/livox_ros_driver"]
 	path = src/lidar/livox_ros_driver
 	url = https://github.com/Livox-SDK/livox_ros_driver.git
+[submodule "src/lidar/livox_ros_driver2"]
+	path = src/lidar/livox_ros_driver2
+	url = https://github.com/HuaYuXiao/livox_ros_driver2.git
+[submodule "src/lidar/Livox-SDK"]
+	path = src/lidar/Livox-SDK
+	url = https://github.com/Livox-SDK/Livox-SDK.git
+[submodule "src/lidar/Livox-SDK2"]
+	path = src/lidar/Livox-SDK2
+	url = https://github.com/Livox-SDK/Livox-SDK2.git
 [submodule "src/slam/FAST_LIO"]
 	path = src/slam/FAST_LIO
 	url = https://github.com/HuaYuXiao/FAST_LIO.git
-[submodule "src/vision/camera_models"]
-	path = src/vision/camera_models
-	url = https://github.com/HuaYuXiao/camera_models.git
 [submodule "src/slam/loop_fusion"]
 	path = src/slam/loop_fusion
 	url = https://gitee.com/hyx020222/loop_fusion.git
 [submodule "src/slam/global_fusion"]
 	path = src/slam/global_fusion
 	url = https://gitee.com/hyx020222/global_fusion.git
+[submodule "src/slam/VINS-Fusion"]
+	path = src/slam/VINS-Fusion
+	url = https://github.com/HuaYuXiao/VINS-Fusion.git
 [submodule "src/reconstruct/plan_env"]
 	path = src/reconstruct/plan_env
 	url = https://gitee.com/hyx020222/plan_env.git
@@ -78,18 +91,9 @@
 [submodule "src/plan/apf_local_planner"]
 	path = src/plan/apf_local_planner
 	url = https://github.com/HuaYuXiao/apf_local_planner.git
-[submodule "src/slam/VINS-Fusion"]
-	path = src/slam/VINS-Fusion
-	url = https://github.com/HuaYuXiao/VINS-Fusion.git
-[submodule "src/lidar/livox_ros_driver2"]
-	path = src/lidar/livox_ros_driver2
-	url = https://github.com/HuaYuXiao/livox_ros_driver2.git
-[submodule "src/lidar/Livox-SDK"]
-	path = src/lidar/Livox-SDK
-	url = https://github.com/Livox-SDK/Livox-SDK.git
-[submodule "src/lidar/Livox-SDK2"]
-	path = src/lidar/Livox-SDK2
-	url = https://github.com/Livox-SDK/Livox-SDK2.git
+[submodule "src/vision/camera_models"]
+	path = src/vision/camera_models
+	url = https://github.com/HuaYuXiao/camera_models.git
 [submodule "src/vision/yolov7_ros"]
 	path = src/vision/yolov7_ros
 	url = https://github.com/mit-acl/yolov7_ros.git
