@@ -96,3 +96,6 @@
 [submodule "3rdparty/acados"]
 	path = 3rdparty/acados
 	url = https://github.com/acados/acados.git
+[submodule "src/mission/uav_landing"]
+	path = src/mission/uav_landing
+	url = https://github.com/HuaYuXiao/uav_landing.git
