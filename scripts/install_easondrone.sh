@@ -9,16 +9,14 @@ sudo apt install libatlas-base-dev
 sudo apt install libeigen3-dev
 sudo apt install libsuitesparse-dev
 
-cd ~/easondrone_ws/3rdparty
-mkdir ceres-bin
-cd ceres-bin
-cmake ../ceres-solver
+cd ~/easondrone_ws/3rdparty/ceres-solver
+mkdir build
+cd build
+cmake ..
 make
 sudo make install
 
 sudo apt install ros-noetic-velodyne*
-
-# sudo apt install ignition-citadel
 
 cd ~/easondrone_ws/src/lidar/Livox-SDK
 mkdir build
@@ -43,8 +41,8 @@ sudo apt install ros-noetic-move-base
 sudo apt install ros-noetic-moveit
 sudo apt install libarmadillo-dev
 
-sudo apt install ros-noetic-tf2-sensor-msgs
-sudo apt install ros-noetic-octomap ros-noetic-octomap-ros octovis
+sudo apt install ros-noetic-tf2*
+sudo apt install ros-noetic-octomap* octovis
 
 cd ~/easondrone_ws/3rdparty/acados
 pip3 install -e interfaces/acados_template
@@ -53,7 +51,6 @@ cd build
 cmake ..
 make
 sudo make install
-
 echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:~/easondrone_ws/3rdparty/acados/lib" >> ~/.bashrc
 echo "export ACADOS_SOURCE_DIR=~/easondrone_ws/3rdparty/acados" >> ~/.bashrc
 

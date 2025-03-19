@@ -50,7 +50,5 @@ qtcreator-*
 # Catkin custom files
 CATKIN_IGNORE
 
-3rdparty/ceres-bin/
-
 .idea/
 .vscode/
