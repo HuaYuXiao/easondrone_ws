@@ -30,6 +30,10 @@
 	path = src/simulate/husky
 	url = https://github.com/husky/husky.git
 	branch = noetic-devel
+[submodule "src/simulate/aws-robomaker-bookstore-world"]
+	path = src/simulate/aws-robomaker-bookstore-world
+	url = https://github.com/aws-robotics/aws-robomaker-bookstore-world.git
+	branch = ros1
 [submodule "src/module/px4ctrl"]
 	path = src/module/px4ctrl
 	url = https://github.com/HuaYuXiao/px4ctrl.git
