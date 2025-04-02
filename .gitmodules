@@ -4,6 +4,9 @@
 [submodule "src/msg/easondrone_msgs"]
 	path = src/msg/easondrone_msgs
 	url = https://github.com/HuaYuXiao/easondrone_msgs.git
+[submodule "src/msg/detection_msgs"]
+	path = src/msg/detection_msgs
+	url = https://github.com/mats-robotics/detection_msgs.git
 [submodule "src/msg/mav_comm"]
 	path = src/msg/mav_comm
 	url = https://github.com/ethz-asl/mav_comm.git
