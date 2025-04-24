@@ -3,6 +3,8 @@
 conda deactivate
 conda deactivate
 
+sudo apt update
+
 sudo apt install cmake
 sudo apt install libgoogle-glog-dev libgflags-dev
 sudo apt install libatlas-base-dev
@@ -58,6 +60,15 @@ cd ~/easondrone_ws/3rdparty/ArUco
 mkdir build
 cd build
 cmake .. -DUSE_OWN_EIGEN3=OFF
+make
+sudo make install
+
+sudo apt install libzmqpp-dev
+
+cd ~/easondrone_ws/3rdparty/nlopt
+mkdir build
+cd build
+cmake ..
 make
 sudo make install
 

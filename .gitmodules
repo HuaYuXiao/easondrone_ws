@@ -113,3 +113,8 @@
 [submodule "3rdparty/ArUco"]
 	path = 3rdparty/ArUco
 	url = https://github.com/HuaYuXiao/ArUco.git
+[submodule "3rdparty/nlopt"]
+	path = 3rdparty/nlopt
+	url = https://github.com/stevengj/nlopt.git
+	branch = v2.7.1
+	
