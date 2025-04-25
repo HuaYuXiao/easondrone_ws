@@ -12,8 +12,7 @@ sudo apt install libeigen3-dev
 sudo apt install libsuitesparse-dev
 
 cd ~/easondrone_ws/3rdparty/ceres-solver
-mkdir build
-cd build
+mkdir build && cd build
 cmake ..
 make
 sudo make install
@@ -21,15 +20,19 @@ sudo make install
 sudo apt install ros-noetic-velodyne*
 
 cd ~/easondrone_ws/src/lidar/Livox-SDK
-mkdir build
-cd build
+mkdir build && cd build
 cmake ..
 make
 sudo make install
 
 cd ~/easondrone_ws/src/lidar/Livox-SDK2
-mkdir build
-cd build
+mkdir build && cd build
+cmake ..
+make
+sudo make install
+
+cd ~/easondrone_ws/3rdparty/Sophus
+mkdir build && cd build
 cmake ..
 make
 sudo make install
@@ -48,8 +51,7 @@ sudo apt install ros-noetic-octomap* octovis
 
 cd ~/easondrone_ws/3rdparty/acados
 pip3 install -e interfaces/acados_template
-mkdir build
-cd build
+mkdir build && cd build
 cmake ..
 make
 sudo make install
@@ -57,8 +59,7 @@ echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:~/easondrone_ws/3rdparty/acados/l
 echo "export ACADOS_SOURCE_DIR=~/easondrone_ws/3rdparty/acados" >> ~/.bashrc
 
 cd ~/easondrone_ws/3rdparty/ArUco
-mkdir build
-cd build
+mkdir build && cd build
 cmake .. -DUSE_OWN_EIGEN3=OFF
 make
 sudo make install
@@ -66,8 +67,7 @@ sudo make install
 sudo apt install libzmqpp-dev
 
 cd ~/easondrone_ws/3rdparty/nlopt
-mkdir build
-cd build
+mkdir build && cd build
 cmake ..
 make
 sudo make install
