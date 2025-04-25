@@ -117,4 +117,7 @@
 	path = 3rdparty/nlopt
 	url = https://github.com/stevengj/nlopt.git
 	branch = v2.7.1
-	
+[submodule "3rdparty/Sophus"]
+	path = 3rdparty/Sophus
+	url = https://github.com/strasdat/Sophus.git
+	branch = 1.22.10
