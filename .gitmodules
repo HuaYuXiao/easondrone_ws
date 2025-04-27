@@ -123,4 +123,4 @@
 	branch = 1.22.10
 [submodule "src/vision/rpg_vikit"]
 	path = src/vision/rpg_vikit
-	url = https://github.com/xuankuzcr/rpg_vikit.git
+	url = https://github.com/HuaYuXiao/rpg_vikit.git
