@@ -15,9 +15,11 @@ jobs:
           - {rosdistro: 'noetic', container: 'ros:noetic-ros-base-focal'}
     container: ${{ matrix.config.container }}
     steps:
-    - uses: actions/checkout@v4
-      with:
-        submodules: recursive
+    - name: submodules update
+      run:
+        apt update
+        apt install git
+        git submodule update --init --recursive
     - name: Install catkin-tools on Noetic
       if: ${{ matrix.config.container == 'ros:noetic-ros-base-focal' }}
       run: |
@@ -31,7 +33,7 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         apt update
-        apt install -y python3-wstool autoconf libtool git
+        apt install -y python3-wstool autoconf libtool
         catkin init
         catkin config --extend "/opt/ros/${{matrix.config.rosdistro}}"
         catkin config --merge-devel
