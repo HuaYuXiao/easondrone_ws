@@ -15,9 +15,8 @@ jobs:
           - {rosdistro: 'noetic', container: 'ros:noetic-ros-base-focal'}
     container: ${{ matrix.config.container }}
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
-        token: ${{ secrets.ACCESS_TOKEN }}
         submodules: recursive
     - name: Install catkin-tools on Noetic
       if: ${{ matrix.config.container == 'ros:noetic-ros-base-focal' }}
