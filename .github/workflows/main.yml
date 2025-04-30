@@ -1,15 +1,11 @@
 name: Build Tests (Ubuntu 20.04 + ROS Noetic)
+
 on:
   push:
-    branches:
-    - 'master'
-  pull_request:
-    branches:
-    - '*'
+    branches: [ $default-branch ]
   workflow_dispatch:
     inputs:
       tags:
-        description: 'This does nothing'
         required: false
         type: boolean
 
@@ -25,7 +21,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        token: ${{ secrets.ACCESS_TOKEN }}
         submodules: recursive
     - name: Install catkin-tools on Noetic
       if: ${{ matrix.config.container == 'ros:noetic-ros-base-focal' }}
