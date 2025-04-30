@@ -23,10 +23,11 @@ jobs:
           - {rosdistro: 'noetic', container: 'ros:noetic-ros-base-focal'}
     container: ${{ matrix.config.container }}
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
       with:
         token: ${{ secrets.ACCESS_TOKEN }}
         github-token: ${{ secrets.GITHUB_TOKEN }}
+        submodules: recursive
     - name: Install catkin-tools on Noetic
       if: ${{ matrix.config.container == 'ros:noetic-ros-base-focal' }}
       run: |
@@ -35,9 +36,16 @@ jobs:
         pip3 install osrf-pycommon
         apt update && apt install -y python3-wstool python3-catkin-tools
     - name: release_build_test
-      working-directory: 
+      working-directory: ${{ github.workspace }}
       env:
         DEBIAN_FRONTEND: noninteractive
       run: |
         apt update
         apt install -y python3-wstool autoconf libtool git
+        catkin init
+        catkin config --extend "/opt/ros/${{matrix.config.rosdistro}}"
+        catkin config --merge-devel
+        chmod +x scripts/install_*.sh
+        ./scripts/install_gazebo.sh
+        ./scripts/install_mavros.sh
+        ./scripts/install_easondrone.sh
