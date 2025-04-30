@@ -4,10 +4,6 @@ on:
   push:
     branches: [ $default-branch ]
   workflow_dispatch:
-    inputs:
-      tags:
-        required: false
-        type: boolean
 
 jobs:
   build:
@@ -21,6 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
+        token: ${{ secrets.ACCESS_TOKEN }}
         submodules: recursive
     - name: Install catkin-tools on Noetic
       if: ${{ matrix.config.container == 'ros:noetic-ros-base-focal' }}
