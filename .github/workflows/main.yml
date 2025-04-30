@@ -15,11 +15,15 @@ jobs:
           - {rosdistro: 'noetic', container: 'ros:noetic-ros-base-focal'}
     container: ${{ matrix.config.container }}
     steps:
-    - name: git submodule update
+    - name: update git
       run: |
+        apt update 
+        apt install -y software-properties-common
+        add-apt-repository ppa:git-core/ppa
         apt update
-        apt install git -y
+        apt install -y git
         git submodule update --init --recursive
+        
     - name: Install catkin-tools on Noetic
       if: ${{ matrix.config.container == 'ros:noetic-ros-base-focal' }}
       run: |
