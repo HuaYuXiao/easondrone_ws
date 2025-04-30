@@ -15,8 +15,8 @@ jobs:
           - {rosdistro: 'noetic', container: 'ros:noetic-ros-base-focal'}
     container: ${{ matrix.config.container }}
     steps:
-    - name: submodules update
-      run:
+    - name: git submodule update
+      run: |
         apt update
         apt install git
         git submodule update --init --recursive
