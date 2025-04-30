@@ -18,15 +18,17 @@ jobs:
     - name: git submodule update
       run: |
         apt update
-        apt install git
+        apt install git -y
         git submodule update --init --recursive
     - name: Install catkin-tools on Noetic
       if: ${{ matrix.config.container == 'ros:noetic-ros-base-focal' }}
       run: |
         apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
-        apt update && apt install -y python3-pip
+        apt update
+        apt install -y python3-pip
         pip3 install osrf-pycommon
-        apt update && apt install -y python3-wstool python3-catkin-tools
+        apt update
+        apt install -y python3-wstool python3-catkin-tools
     - name: release_build_test
       working-directory: ${{ github.workspace }}
       env:
