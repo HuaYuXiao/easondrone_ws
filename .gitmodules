@@ -124,3 +124,6 @@
 [submodule "src/vision/rpg_vikit"]
 	path = src/vision/rpg_vikit
 	url = https://github.com/HuaYuXiao/rpg_vikit.git
+[submodule "src/simulate/uav_simulator"]
+	path = src/simulate/uav_simulator
+	url = https://github.com/HuaYuXiao/uav_simulator.git
