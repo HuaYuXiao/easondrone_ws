@@ -5,6 +5,8 @@
 ![Build Targets](https://github.com/HuaYuXiao/easondrone_ws/actions/workflows/main.yml/badge.svg)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/nx9k7f)
 
+ROS workspace for PX4 quadrotor
+
 ![IMG_4086](https://github.com/user-attachments/assets/e6cd44a2-d36e-48f9-bf17-8b09f40ee9b8)
 
 # 📜 项目亮点
@@ -72,6 +74,7 @@ EasonDrone是一个自主四旋翼无人机框架，基于**PX4-Autopilot**、**
 
 ### 🚀 Artificial Potential Field
 
+[![](https://img.shields.io/badge/IEEE-Paper-00629B?logo=ieee)](https://ieeexplore.ieee.org/document/1087247)
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/apf_local_planner.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/nx9k7f/bxwxkgotu8qa9mtx)
 
