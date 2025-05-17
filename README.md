@@ -13,7 +13,7 @@ ROS workspace for PX4 quadrotor
 
 EasonDrone是一个自主四旋翼无人机框架，基于**PX4-Autopilot**、**MAVROS**、**ROS**等开源框架开发，集成了**飞行控制**、**目标检测**、**SLAM定位**、**路径规划**、**场景重建**等功能。作为开源项目，欢迎各位使用、贡献。不完善之处，还请各位大佬多多批评指正！
 
-## 🚀 竞赛级Offboard飞行控制（思路+代码精讲）
+## 🎈 竞赛级Offboard飞行控制（思路+代码精讲）
 
 [![](https://img.shields.io/badge/Gitee-Code-C71D23?logo=gitee)](https://gitee.com/hyx020222/CUADC.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/nx9k7f/mzkevsxewtiwk8lz)
@@ -28,35 +28,35 @@ EasonDrone是一个自主四旋翼无人机框架，基于**PX4-Autopilot**、**
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/mit-acl/yolov7_ros.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/nx9k7f/dmw2ggu9v33dbiph)
 
-![4n014gma0hcd4j](https://github.com/user-attachments/assets/440a9b5e-a01a-4071-997f-a8a83a878387)
+<p align="left"> <img src="https://github.com/user-attachments/assets/440a9b5e-a01a-4071-997f-a8a83a878387" style="width:50%;" /> </p>
 
-## 🚀 移动靶精准降落
+## 🪂 移动靶精准降落
 
 [![](https://img.shields.io/badge/Springer-Paper-blue)](https://link.springer.com/chapter/10.1007/978-3-031-43111-1_32)
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/uav_landing.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/nx9k7f/owhtnmxy9tqkn6b2)
 
-![qu1d4qm9v0qiu6](https://github.com/user-attachments/assets/0eecf367-5476-490a-8d8e-a731aafc3f89)
+<p align="left"> <img src="https://github.com/user-attachments/assets/0eecf367-5476-490a-8d8e-a731aafc3f89" style="width:50%;" /> </p>
 
 ## 视觉与雷达SLAM
 
-### 🚀 VINS-Fusion（附赠论文解读）
+### 🎯 VINS-Fusion（附赠论文解读）
 
 [![](https://img.shields.io/badge/IEEE-Paper-00629B?logo=ieee)](https://ieeexplore.ieee.org/document/8421746)
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/VINS-Fusion.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/bmimen/ggheu3n4rekgt548)
 
-![xh8shema0hcd4m](https://github.com/user-attachments/assets/810dc3e9-ffc6-479a-9209-a20b889569db)
+<p align="left"> <img src="https://github.com/user-attachments/assets/810dc3e9-ffc6-479a-9209-a20b889569db" style="width:50%;" /> </p>
 
-### 🚀 FAST-LIO2
+### 🎯 FAST-LIO2
 
 [![](https://img.shields.io/badge/IEEE-Paper-00629B?logo=ieee)](https://ieeexplore.ieee.org/document/9697912)
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/FAST_LIO.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/bmimen/qyzgg4pe76b6z6ox)
 
-![xh8shema0hcd4m](https://github.com/user-attachments/assets/b6eb9760-e548-4d72-b2cb-5e6de16387c9)
+<p align="left"> <img src="https://github.com/user-attachments/assets/b6eb9760-e548-4d72-b2cb-5e6de16387c9" style="width:50%;" /> </p>
 
-### 🚀 FAST-LIVO2
+### 🎯 FAST-LIVO2
 
 [![](https://img.shields.io/badge/IEEE-Paper-00629B?logo=ieee)](https://ieeexplore.ieee.org/document/10757429)
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/FAST-LIVO2.git)
@@ -64,41 +64,41 @@ EasonDrone是一个自主四旋翼无人机框架，基于**PX4-Autopilot**、**
 
 ## 局部避障导航
 
-### 🚀 EGO-Planner
+### 🏹 EGO-Planner
 
 [![](https://img.shields.io/badge/IEEE-Paper-00629B?logo=ieee)](https://ieeexplore.ieee.org/document/9309347)
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/ego-planner.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/nx9k7f/ww0ybawwxtg6zslg)
 
-![xh8shema0hcd4m](https://github.com/user-attachments/assets/d825a23a-1eb3-4065-be1f-30f86e6c5b6b)
+<p align="left"> <img src="https://github.com/user-attachments/assets/d825a23a-1eb3-4065-be1f-30f86e6c5b6b" style="width:50%;" /> </p>
 
-### 🚀 Artificial Potential Field
+### 🏹 Artificial Potential Field
 
 [![](https://img.shields.io/badge/IEEE-Paper-00629B?logo=ieee)](https://ieeexplore.ieee.org/document/1087247)
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/apf_local_planner.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/nx9k7f/bxwxkgotu8qa9mtx)
 
-### 🚀 Intent-MPC
+### 🏹 Intent-MPC
 
 [![](https://img.shields.io/badge/IEEE-Paper-00629B?logo=ieee)](https://ieeexplore.ieee.org/document/10945375)
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/Intent-MPC.git)
 
-## 🚀 三维场景重建 (OctoMap)
+## 💡 三维场景重建 (OctoMap)
 
 [![](https://img.shields.io/badge/Springer-Paper-blue)](https://link.springer.com/article/10.1007/s10514-012-9321-0)
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/OctoMap/octomap_mapping.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/nx9k7f/dmw2ggu9v33dbiph)
 
-![xh8shema0hcd4m](https://github.com/user-attachments/assets/05806e64-d518-45cc-86fa-dd11d09c7a48)
+<p align="left"> <img src="https://github.com/user-attachments/assets/05806e64-d518-45cc-86fa-dd11d09c7a48" style="width:50%;" /> </p>
 
 # 🛒 课程订阅
 
-本课程分为基础班和进阶班，根据课程特点，适用于不同人群。
+本课程分为**基础班**以及**进阶班**，根据课程特点，适用于不同人群。
 
 | | 课程特点🌟 | 订阅链接🔗 | 活动价🔥 |
 |:-----:|:-----:|:-----:|:-----:|
-| 基础套餐🧑‍🎓 | 着重讲解Offboard飞行控制 & Gazebo模型与场景设计 | [古月学院](https://class.guyuehome.com/p/t_pc/goods_pc_detail/goods_detail/p_67c80611e4b0694c5aa1ffa2?product_id=p_67c80611e4b0694c5aa1ffa2) | 68 ~~98~~ |
-| 进阶套餐🧑‍💻 | 一次性解锁本项目全部内容，一对一售后答疑贴心服务 | [古月学院](https://class.guyuehome.com/p/t_pc/goods_pc_detail/goods_detail/course_2vWKOP9SeV8A5ShNSQfGyve2B7S) | 198 ~~248~~ |
+| 基础套餐🧑‍🎓 | 着重Offboard飞行控制 & Gazebo模型与场景设计 | [古月学院](https://class.guyuehome.com/p/t_pc/goods_pc_detail/goods_detail/p_67c80611e4b0694c5aa1ffa2?product_id=p_67c80611e4b0694c5aa1ffa2) | 68 ~~98~~ |
+| 进阶套餐🧑‍💻 | 一次解锁本项目全部内容，一对一售后答疑贴心服务 | [古月学院](https://class.guyuehome.com/p/t_pc/goods_pc_detail/goods_detail/course_2vWKOP9SeV8A5ShNSQfGyve2B7S) | 198 ~~248~~ |
 
 ![IMG_4086_2](https://github.com/user-attachments/assets/4e4e1580-d3a1-4e25-b2ba-19319b21a8c7)
 
