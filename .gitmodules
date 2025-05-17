@@ -127,3 +127,6 @@
 [submodule "src/simulate/uav_simulator"]
 	path = src/simulate/uav_simulator
 	url = https://github.com/HuaYuXiao/uav_simulator.git
+[submodule "src/slam/FAST-LIVO2"]
+	path = src/slam/FAST-LIVO2
+	url = https://github.com/HuaYuXiao/FAST-LIVO2.git
