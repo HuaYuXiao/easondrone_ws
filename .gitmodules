@@ -88,7 +88,7 @@
 	url = https://gitee.com/hyx020222/path_searching.git
 [submodule "src/plan/bspline_opt"]
 	path = src/plan/bspline_opt
-	url = https://gitee.com/hyx020222/bspline_opt.git
+	url = https://github.com/HuaYuXiao/bspline_opt.git
 [submodule "src/plan/traj_utils"]
 	path = src/plan/traj_utils
 	url = https://gitee.com/hyx020222/traj_utils.git
