@@ -91,7 +91,7 @@
 	url = https://github.com/HuaYuXiao/bspline_opt.git
 [submodule "src/plan/traj_utils"]
 	path = src/plan/traj_utils
-	url = https://gitee.com/hyx020222/traj_utils.git
+	url = https://github.com/HuaYuXiao/traj_utils.git
 [submodule "src/plan/ego-planner"]
 	path = src/plan/ego-planner
 	url = https://github.com/HuaYuXiao/ego-planner.git
