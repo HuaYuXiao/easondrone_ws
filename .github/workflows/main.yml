@@ -11,12 +11,8 @@ jobs:
         config:
           - {rosdistro: 'noetic', container: 'ros:noetic-ros-base-focal'}
     container: ${{ matrix.config.container }}
-    steps:
-    - name: Checkout repository with submodules
-      uses: actions/checkout@v4
-      with:
-        submodules: recursive
-        
+    
+    steps:        
     - name: update git
       run: |
         apt update 
@@ -24,10 +20,13 @@ jobs:
         add-apt-repository ppa:git-core/ppa
         apt update
         apt install -y git
-        git submodule update --init --recursive
+
+    - name: Clone repo with submodules
+      run: |
+        git clone --recursive https://github.com/${{ github.repository }} .
+        git config --global --add safe.directory "$GITHUB_WORKSPACE"
         
     - name: Install catkin-tools on Noetic
-      if: ${{ matrix.config.container == 'ros:noetic-ros-base-focal' }}
       run: |
         apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
         apt update
