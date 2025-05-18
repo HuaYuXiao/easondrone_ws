@@ -133,3 +133,6 @@
 [submodule "src/plan/bspline"]
 	path = src/plan/bspline
 	url = https://github.com/HKUST-Swarm/bspline.git
+[submodule "src/plan/poly_traj"]
+	path = src/plan/poly_traj
+	url = https://github.com/HuaYuXiao/poly_traj.git
