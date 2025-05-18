@@ -130,3 +130,6 @@
 [submodule "src/slam/FAST-LIVO2"]
 	path = src/slam/FAST-LIVO2
 	url = https://github.com/HuaYuXiao/FAST-LIVO2.git
+[submodule "src/plan/bspline"]
+	path = src/plan/bspline
+	url = https://github.com/HKUST-Swarm/bspline.git
