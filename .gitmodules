@@ -79,7 +79,7 @@
 	url = https://github.com/HuaYuXiao/VINS-Fusion.git
 [submodule "src/reconstruct/plan_env"]
 	path = src/reconstruct/plan_env
-	url = https://gitee.com/hyx020222/plan_env.git
+	url = https://github.com/HuaYuXiao/plan_env.git
 [submodule "src/plan/waypoint_generator"]
 	path = src/plan/waypoint_generator
 	url = https://gitee.com/hyx020222/waypoint_generator.git
