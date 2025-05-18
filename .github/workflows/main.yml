@@ -58,8 +58,96 @@ jobs:
         chmod +x scripts/install_mavros.sh
         ./scripts/install_mavros.sh
 
-    - name: install EasonDrone
+    - name: prepare EasonDrone
       working-directory: ${{ github.workspace }}
       run: |
-        chmod +x scripts/install_easondrone.sh
-        ./scripts/install_easondrone.sh
+        apt update
+        apt install -y cmake
+        apt install -y libgoogle-glog-dev libgflags-dev
+        apt install -y libatlas-base-dev
+        apt install -y libeigen3-dev
+        apt install -y libsuitesparse-dev
+        apt install -y ros-noetic-velodyne*
+        apt install -y ros-noetic-usb-cam
+        apt install -y ros-noetic-vision-msgs
+        pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+        pip3 install tqdm seaborn
+        apt install -y ros-noetic-move-base
+        apt install -y ros-noetic-moveit
+        apt install -y libarmadillo-dev
+        apt install -y ros-noetic-tf2*
+        apt install -y ros-noetic-octomap* octovis
+        apt install -y libzmqpp-dev
+
+    - name: install ceres-solver
+      working-directory: ${{ github.workspace }}
+      run: |
+        cd 3rdparty/ceres-solver
+        mkdir build && cd build
+        cmake ..
+        make
+        make install
+
+    - name: install Livox-SDK
+      working-directory: ${{ github.workspace }}
+      run: |
+        cd src/lidar/Livox-SDK
+        mkdir build && cd build
+        cmake ..
+        make
+        make install
+
+    - name: install Livox-SDK2
+      working-directory: ${{ github.workspace }}
+      run: |
+        cd src/lidar/Livox-SDK2
+        mkdir build && cd build
+        cmake ..
+        make
+        make install
+
+    - name: install Sophus
+      working-directory: ${{ github.workspace }}
+      run: |
+        cd 3rdparty/Sophus
+        mkdir build && cd build
+        cmake ..
+        make
+        make install
+
+    - name: install acados
+      working-directory: ${{ github.workspace }}
+      run: |
+        cd 3rdparty/acados
+        pip3 install -e interfaces/acados_template
+        mkdir build && cd build
+        cmake ..
+        make
+        make install
+        echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:~/easondrone_ws/3rdparty/acados/lib" >> ~/.bashrc
+        echo "export ACADOS_SOURCE_DIR=~/easondrone_ws/3rdparty/acados" >> ~/.bashrc
+
+    - name: install ArUco
+      working-directory: ${{ github.workspace }}
+      run: |
+        cd 3rdparty/ArUco
+        mkdir build && cd build
+        cmake .. -DUSE_OWN_EIGEN3=OFF
+        make
+        make install
+
+    - name: install nlopt
+      working-directory: ${{ github.workspace }}
+      run: |
+        cd 3rdparty/nlopt
+        mkdir build && cd build
+        cmake ..
+        make
+        make install
+        
+    - name: catkin_make_isolated
+      working-directory: ${{ github.workspace }}
+      run: |
+        catkin_make_isolated --ignore-pkg ceres-solver pangolin
+        echo "source ~/easondrone_ws/devel_isolated/setup.bash" >> ~/.bashrc
+        
