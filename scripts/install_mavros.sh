@@ -1,4 +1,11 @@
-sudo apt install ros-noetic-mavros
+#!/bin/bash
+# Exit Anaconda environment
+conda deactivate
+conda deactivate
+
+sudo apt update
+
+sudo apt install -y ros-noetic-mavros*
 
 sudo rm -rf /usr/share/GeographicLib/
 
