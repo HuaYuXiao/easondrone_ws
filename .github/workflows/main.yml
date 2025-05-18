@@ -45,7 +45,21 @@ jobs:
         catkin init
         catkin config --extend "/opt/ros/${{matrix.config.rosdistro}}"
         catkin config --merge-devel
-        chmod +x scripts/install_*.sh
+        
+    - name: install Gazebo
+      working-directory: ${{ github.workspace }}
+      run: |
+        chmod +x scripts/install_gazebo.sh
         ./scripts/install_gazebo.sh
+
+    - name: install MAVROS
+      working-directory: ${{ github.workspace }}
+      run: |
+        chmod +x scripts/install_mavros.sh
         ./scripts/install_mavros.sh
+
+    - name: install EasonDrone
+      working-directory: ${{ github.workspace }}
+      run: |
+        chmod +x scripts/install_easondrone.sh
         ./scripts/install_easondrone.sh
