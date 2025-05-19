@@ -18,6 +18,7 @@ make
 sudo make install
 
 sudo apt install -y ros-noetic-velodyne*
+sudo apt install -y pcl-tools
 
 cd ~/easondrone_ws/src/lidar/Livox-SDK
 mkdir build && cd build
