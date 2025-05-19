@@ -73,6 +73,14 @@ cmake ..
 make
 sudo make install
 
+sudo apt install -y ninja-build build-essential libboost-program-options-dev libboost-graph-dev libboost-system-dev libflann-dev libfreeimage-dev libmetis-dev libgtest-dev libgmock-dev libsqlite3-dev libglew-dev qtbase5-dev libqt5opengl5-dev libcgal-dev libceres-dev
+
+cd ~/easondrone_ws/src/reconstruct/colmap
+mkdir build && cd build
+cmake .. -GNinja
+ninja
+sudo ninja install
+
 cd ~/easondrone_ws
 catkin_make_isolated --ignore-pkg ceres-solver pangolin
 
