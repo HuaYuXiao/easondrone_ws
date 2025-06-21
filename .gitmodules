@@ -139,3 +139,6 @@
 [submodule "src/plan/poly_traj"]
 	path = src/plan/poly_traj
 	url = https://github.com/HuaYuXiao/poly_traj.git
+[submodule "src/reconstruct/colmap"]
+	path = src/reconstruct/colmap
+	url = https://github.com/colmap/colmap.git
