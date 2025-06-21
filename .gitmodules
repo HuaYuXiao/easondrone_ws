@@ -68,6 +68,9 @@
 [submodule "src/slam/FAST_LIO"]
 	path = src/slam/FAST_LIO
 	url = https://github.com/HuaYuXiao/FAST_LIO.git
+[submodule "src/slam/FAST_LIO_SAM"]
+	path = src/slam/FAST_LIO_SAM
+	url = https://github.com/HuaYuXiao/FAST_LIO_SAM.git
 [submodule "src/slam/loop_fusion"]
 	path = src/slam/loop_fusion
 	url = https://gitee.com/hyx020222/loop_fusion.git

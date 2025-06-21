@@ -63,6 +63,8 @@ EasonDrone是一个自主四旋翼无人机框架，基于**PX4-Autopilot**、**
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/FAST_LIO.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/bmimen/qyzgg4pe76b6z6ox)
 
+Fast Direct LiDAR-inertial Odometry.
+
 <p align="left"> <img src="https://github.com/user-attachments/assets/b6eb9760-e548-4d72-b2cb-5e6de16387c9" style="width:50%;" /> </p>
 
 #### 🎯 FAST-LIVO2
@@ -70,6 +72,13 @@ EasonDrone是一个自主四旋翼无人机框架，基于**PX4-Autopilot**、**
 [![](https://img.shields.io/badge/IEEE-Paper-00629B?logo=ieee)](https://ieeexplore.ieee.org/document/10757429)
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/FAST-LIVO2.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/bmimen/vhcf7g476cbuw0vl)
+
+#### 🎯 FAST-LIO-SAM
+
+[![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/FAST_LIO_SAM.git)
+[![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/bmimen/bwtoqexp4vftwxx8)
+
+FAST-LIO with Smoothing and Mapping.
 
 ### 局部避障导航
 
@@ -79,7 +88,7 @@ EasonDrone是一个自主四旋翼无人机框架，基于**PX4-Autopilot**、**
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/ego-planner.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/nx9k7f/ww0ybawwxtg6zslg)
 
-An ESDF-free Gradient-based Local Planner for Quadrotors
+An ESDF-free Gradient-based Local Planner for Quadrotors.
 
 <p align="left"> <img src="https://github.com/user-attachments/assets/d825a23a-1eb3-4065-be1f-30f86e6c5b6b" style="width:50%;" /> </p>
 
@@ -110,7 +119,7 @@ An ESDF-free Gradient-based Local Planner for Quadrotors
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/colmap/colmap.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/nx9k7f/spx4v9zo20tp0xhk)
 
-Structure-from-Motion and Multi-View Stereo
+Structure-from-Motion and Multi-View Stereo.
 
 # 🛒 课程订阅
 

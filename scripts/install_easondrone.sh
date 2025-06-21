@@ -11,6 +11,7 @@ sudo apt install -y libatlas-base-dev
 sudo apt install -y libeigen3-dev
 sudo apt install -y libsuitesparse-dev
 
+# dependency of VINS-Fusion
 cd ~/easondrone_ws/3rdparty/ceres-solver
 mkdir build && cd build
 cmake ..
@@ -31,6 +32,10 @@ mkdir build && cd build
 cmake ..
 make
 sudo make install
+
+# dependency of FAST_LIO_SAM
+sudo add-apt-repository ppa:borglab/gtsam-release-4.0
+sudo apt install -y libgtsam-dev libgtsam-unstable-dev
 
 cd ~/easondrone_ws/3rdparty/Sophus
 mkdir build && cd build
