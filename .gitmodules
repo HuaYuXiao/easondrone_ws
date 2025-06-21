@@ -85,7 +85,7 @@
 	url = https://github.com/HuaYuXiao/plan_env.git
 [submodule "src/plan/waypoint_generator"]
 	path = src/plan/waypoint_generator
-	url = https://gitee.com/hyx020222/waypoint_generator.git
+	url = https://github.com/HuaYuXiao/waypoint_generator.git
 [submodule "src/plan/path_searching"]
 	path = src/plan/path_searching
 	url = https://github.com/HuaYuXiao/path_searching.git
