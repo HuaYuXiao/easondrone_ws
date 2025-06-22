@@ -142,3 +142,6 @@
 [submodule "src/reconstruct/colmap"]
 	path = src/reconstruct/colmap
 	url = https://github.com/colmap/colmap.git
+[submodule "src/vision/darknet_ros"]
+	path = src/vision/darknet_ros
+	url = https://github.com/leggedrobotics/darknet_ros.git
