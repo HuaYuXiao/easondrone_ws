@@ -145,3 +145,6 @@
 [submodule "src/vision/darknet_ros"]
 	path = src/vision/darknet_ros
 	url = https://github.com/leggedrobotics/darknet_ros.git
+[submodule "src/slam/better_fastlio2"]
+	path = src/slam/better_fastlio2
+	url = https://github.com/HuaYuXiao/better_fastlio2.git

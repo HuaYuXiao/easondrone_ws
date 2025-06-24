@@ -80,6 +80,13 @@ Fast Direct LiDAR-inertial Odometry.
 
 FAST-LIO with Smoothing and Mapping.
 
+#### 🎯 better-FAST-LIO2
+
+[![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/better_fastlio2.git)
+[![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/bmimen/xw6aeipcaytcgfae)
+
+FAST-LIO-SAM + dynamic removal + multi-session mapping + object-level update + online relocalization.
+
 ### 局部避障导航
 
 #### 🏹 EGO-Planner
@@ -103,6 +110,8 @@ An ESDF-free Gradient-based Local Planner for Quadrotors.
 [![](https://img.shields.io/badge/IEEE-Paper-00629B?logo=ieee)](https://ieeexplore.ieee.org/document/10945375)
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/HuaYuXiao/Intent-MPC.git)
 
+Intent Prediction-Driven Model Predictive Control for UAV Planning and Navigation in Dynamic Environments.
+
 ### 三维场景重建
 
 #### 🌏 OctoMap
@@ -110,6 +119,8 @@ An ESDF-free Gradient-based Local Planner for Quadrotors.
 [![](https://img.shields.io/badge/Springer-Paper-blue)](https://link.springer.com/article/10.1007/s10514-012-9321-0)
 [![](https://img.shields.io/badge/GitHub-Code-181717?logo=github)](https://github.com/OctoMap/octomap_mapping.git)
 [![](https://img.shields.io/badge/Yuque-Doc-green)](https://www.yuque.com/easonhua/nx9k7f/dmw2ggu9v33dbiph)
+
+An Efficient Probabilistic 3D Mapping Framework Based on Octrees.
 
 <p align="left"> <img src="https://github.com/user-attachments/assets/05806e64-d518-45cc-86fa-dd11d09c7a48" style="width:50%;" /> </p>
 
@@ -139,3 +150,16 @@ Structure-from-Motion and Multi-View Stereo.
 ![Static Badge](https://img.shields.io/badge/WeChat-hyx020222-07C160?logo=wechat)
 ![Static Badge](https://img.shields.io/badge/QQ-1628280289-1EBAFC?logo=qq)
 ![Static Badge](https://img.shields.io/badge/Phone-13701490089-yellow)
+
+# Cite the Work
+
+If you use this repository in your academic research, a BibTeX citation is appreciated: 
+
+```
+@misc{hua2025easondrone_ws,
+  title={EasonDrone: ROS framework for PX4 quadrotor.},
+  author={Hua, Yuxiao},
+  howpublished={\url{https://github.com/HuaYuXiao/easondrone_ws}},
+  year={2025}
+}
+```

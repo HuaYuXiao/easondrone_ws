@@ -33,7 +33,7 @@ cmake ..
 make
 sudo make install
 
-# dependency of FAST_LIO_SAM
+# dependency of FAST-LIO-SAM &better-FAST-LIO2
 sudo add-apt-repository ppa:borglab/gtsam-release-4.0
 sudo apt install -y libgtsam-dev libgtsam-unstable-dev
 
