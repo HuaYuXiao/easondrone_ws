@@ -5,20 +5,19 @@ conda deactivate
 
 sudo apt update
 
+# dependency of VINS-Fusion
 sudo apt install -y cmake
 sudo apt install -y libgoogle-glog-dev libgflags-dev
 sudo apt install -y libatlas-base-dev
 sudo apt install -y libeigen3-dev
 sudo apt install -y libsuitesparse-dev
-
-# dependency of VINS-Fusion
 cd ~/easondrone_ws/3rdparty/ceres-solver
 mkdir build && cd build
 cmake ..
 make
 sudo make install
 
-sudo apt install -y ros-noetic-velodyne*
+sudo apt install -y ros-${ROS_DISTRO}-velodyne*
 sudo apt install -y pcl-tools
 
 cd ~/easondrone_ws/src/lidar/Livox-SDK
@@ -33,27 +32,27 @@ cmake ..
 make
 sudo make install
 
-# dependency of FAST-LIO-SAM &better-FAST-LIO2
+# dependency of FAST-LIO-SAM & better-FAST-LIO2
 sudo add-apt-repository ppa:borglab/gtsam-release-4.0
 sudo apt install -y libgtsam-dev libgtsam-unstable-dev
 
+# dependency of FAST-LIVO2
 cd ~/easondrone_ws/3rdparty/Sophus
 mkdir build && cd build
 cmake ..
 make
 sudo make install
 
-sudo apt install -y ros-noetic-usb-cam
-sudo apt install -y ros-noetic-vision-msgs
+sudo apt install -y ros-${ROS_DISTRO}-usb-cam
+sudo apt install -y ros-${ROS_DISTRO}-vision-msgs
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 pip3 install tqdm seaborn
 
-sudo apt install -y ros-noetic-move-base
-sudo apt install -y ros-noetic-moveit
-sudo apt install -y libarmadillo-dev
+sudo apt install -y ros-${ROS_DISTRO}-move-base
+sudo apt install -y ros-${ROS_DISTRO}-moveit
 
-sudo apt install -y ros-noetic-tf2*
-sudo apt install -y ros-noetic-octomap* octovis
+sudo apt install -y ros-${ROS_DISTRO}-tf2*
+sudo apt install -y ros-${ROS_DISTRO}-octomap* octovis
 
 cd ~/easondrone_ws/3rdparty/acados
 pip3 install -e interfaces/acados_template
@@ -72,6 +71,8 @@ sudo make install
 
 sudo apt install -y libzmqpp-dev
 
+# dependency of FUEL
+sudo apt install -y libarmadillo-dev
 cd ~/easondrone_ws/3rdparty/nlopt
 mkdir build && cd build
 cmake ..

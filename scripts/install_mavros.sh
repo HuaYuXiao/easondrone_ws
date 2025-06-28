@@ -5,7 +5,7 @@ conda deactivate
 
 sudo apt update
 
-sudo apt install -y ros-noetic-mavros*
+sudo apt install -y ros-${ROS_DISTRO}-mavros*
 
 sudo rm -rf /usr/share/GeographicLib/
 
